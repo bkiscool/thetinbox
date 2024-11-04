@@ -34,14 +34,6 @@ div {
     padding: 1em;
 }
 
-.container {
-    
-    display: grid;
-    font-family: Arial, sans-serif;
-    font-size: 20px;
-    color: white;
-}
-
 .header {
     place-self: center;
     font-family: Arial;
