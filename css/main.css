@@ -34,6 +34,14 @@ div {
     padding: 1em;
 }
 
+.container {
+    
+    display: grid;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
 .header {
     place-self: center;
     font-family: Arial;
@@ -84,4 +92,13 @@ a.button {
 
     text-decoration: none;
     color: white;
+}
+.server-down-notice {
+    color: rgb(225, 135, 135);
+    font-size: 16px;
+}
+
+.server-down-notice p {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
 }
