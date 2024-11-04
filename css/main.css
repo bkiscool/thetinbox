@@ -65,8 +65,19 @@ a.button {
     width: 125px;
 }
 
-.logo {
+.server-down {
     place-self: center;
+    background-color: rgb(0, 0, 16, 0.6);
+    border: 2px solid black;
+    padding: 2em;
+    padding-inline: 12em;
+    backdrop-filter: blur(3px);
+
+    font-family: "Franklin Gothic Regular", "Arial Narrow", Arial, sans-serif;
+    font-size: 16px;
+
+    text-decoration: none;
+    color: rgb(225, 135, 135);
 }
 
 .main {
