@@ -15,13 +15,6 @@ a:hover {
     color: lavenderblush;
 }
 
-
-.d {
-    font-size: 20px;
-    color: black;
-    font-family: "Franklin Gothic Regular", "Arial Narrow", Arial, sans-serif;
-}
-
 body {
     background-image: url("../img/bg2.png");
     background-position: center;
@@ -49,37 +42,6 @@ div {
     color: white;
 }
 
-a.button {
-    display: inline-block;
-    font-family: Arial;
-    padding: 10px 20px;
-    font-size: 25px;
-    text-align: center;
-    border: 2px solid black;
-    color: rgb(255, 255, 55, 1);
-    border-radius: 3px;
-    background-color: rgb(0,0,16, 0.6);
-    backdrop-filter: blur(3px);
-    text-decoration: none;
-    font-weight: bold;
-    width: 125px;
-}
-
-.server-down {
-    place-self: center;
-    background-color: rgb(0, 0, 16, 0.6);
-    border: 2px solid black;
-    padding: 2em;
-    padding-inline: 12em;
-    backdrop-filter: blur(3px);
-
-    font-family: "Franklin Gothic Regular", "Arial Narrow", Arial, sans-serif;
-    font-size: 16px;
-
-    text-decoration: none;
-    color: rgb(225, 135, 135);
-}
-
 .main {
     place-self: center;
     background-color: rgb(0, 0, 16, 0.6);
@@ -92,13 +54,4 @@ a.button {
 
     text-decoration: none;
     color: white;
-}
-.server-down-notice {
-    color: rgb(225, 135, 135);
-    font-size: 16px;
-}
-
-.server-down-notice p {
-    color: rgb(255, 255, 255);
-    font-size: 12px;
 }
